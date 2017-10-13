@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace Net.Facebook.Graph
 {
-    public class NetGraphRequest
+    public static class NetGraphRequest
     {
 
-        public async Task<Token> GetToken(string id, string secret)
+        public async static Task<Token> GetToken(string id, string secret)
         {
             try
             {
@@ -25,7 +25,7 @@ namespace Net.Facebook.Graph
 
 
 
-        public string CreateTokenUrl(string id, string secret)
+        public static string CreateTokenUrl(string id, string secret)
         {
             var url = "https://graph.facebook.com/oauth/access_token?" +
                 "client_id=" + id + "&client_secret=" + secret +
