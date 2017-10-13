@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Net.Facebook.Graph</id>
+    <version>1.0.5</version>
+    <authors>GeralexGR</authors>
+    <owners>GeralexGR</owners>
+    <licenseUrl>https://github.com/jerrak0s/Net.Facebook.Graph/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/jerrak0s/Net.Facebook.Graph</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Net.Facebook.Graph</description>
+    <releaseNotes>initial release</releaseNotes>
+    <copyright>GeralexGR 2017</copyright>
+    <tags>.net facebook graph api graph-api c#</tags>
+    <dependencies>
+      <dependency id="Newtonsoft.Json" version="10.0.3" />
+      <dependency id="System.Net.Http" version="4.3.3" />
+    </dependencies>
+</metadata>
+
+
+<files>
+
+
+
+<file src="Net.Facebook.Graph\Models\Token.cs" target="content\Models\Token.cs" />
+<file src="Net.Facebook.Graph\bin\Release\netstandard1.6\Net.Facebook.Graph.dll" target="lib" />
+
+
+<!--NetStandard/PCL-->
+<file src="Net.Facebook.Graph\Models\Token.cs" target="content\Models\Token.cs" />
+<file src="Net.Facebook.Graph\bin\Release\netstandard1.6\Net.Facebook.Graph.dll" target="lib\netstandard1.6" />
+
+ <!--UWP-->
+<file src="Net.Facebook.Graph\Models\Token.cs" target="content\Models\Token.cs" />
+<file src="Net.Facebook.Graph\bin\Release\netstandard1.6\Net.Facebook.Graph.dll" target="lib\UAP10" />
+
+<!--Net 45-->
+<file src="Net.Facebook.Graph\Models\Token.cs" target="content\Models\Token.cs" />
+<file src="Net.Facebook.Graph\bin\Release\netstandard1.6\Net.Facebook.Graph.dll" target="lib\net45" />
+
+
+</files>
+
+</package>
