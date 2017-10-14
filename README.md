@@ -16,7 +16,7 @@ NuGet is the standard package manager for .NET applications that is built into V
 
 # Documentation
 
-
+Package documentation is available [here](https://github.com/jerrak0s/Net.Facebook.Graph/blob/master/Doc.md)
 
 # Feedback
 
