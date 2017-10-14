@@ -30,5 +30,5 @@ Licensed under the MIT License. Please refer to [LICENSE.md](https://github.com/
 
 # Recent changes
 
-### version 1.0.0
+### version 1.0.7
 * release of nuget package
