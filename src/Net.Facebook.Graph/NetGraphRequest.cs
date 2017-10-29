@@ -34,6 +34,23 @@ namespace Net.Facebook.Graph
             return url;
         }
 
+        public static async Task<string> CreatePageRequestUrl(string id, string secret,string page)
+        {
+            Token token = await GetToken(id,secret);
+            if (token != null)
+            {
+                var url = "https://graph.facebook.com/" + page + 
+                    "?fields=id,link,name,about,category,single_line_address,picture.width(600).height(600)" + "&access_token=" 
+                    + token.AccessToken;
+                return url;
+            }
+            else
+            {
+                return String.Empty;
+            }
+
+        }
+
         public static async Task<Page> GetPageInfo(string url)
         {
             try
