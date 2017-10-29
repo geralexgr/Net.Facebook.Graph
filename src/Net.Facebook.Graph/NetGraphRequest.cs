@@ -9,7 +9,7 @@ namespace Net.Facebook.Graph
     public static class NetGraphRequest
     {
 
-        public async static Task<Token> GetToken(string id, string secret)
+        public static async Task<Token> GetToken(string id, string secret)
         {
             try
             {
@@ -32,6 +32,19 @@ namespace Net.Facebook.Graph
                 "&grant_type=client_credentials";
 
             return url;
+        }
+
+        public static async Task<Page> GetPageInfo(string url)
+        {
+            try
+            {
+                var client = new HttpClient();
+                var response = await client.GetAsync(url);
+                var result = await response.Content.ReadAsStringAsync();
+                return JsonConvert.DeserializeObject<Page>(result);
+            }
+
+            catch (Exception) { return null; }
         }
 
     }

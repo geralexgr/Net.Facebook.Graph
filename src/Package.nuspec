@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>Net.Facebook.Graph</id>
-    <version>1.0.5</version>
+    <version>1.0.7</version>
     <authors>GeralexGR</authors>
     <owners>GeralexGR</owners>
     <licenseUrl>https://github.com/jerrak0s/Net.Facebook.Graph/blob/master/LICENSE</licenseUrl>
@@ -23,20 +23,20 @@
 
 
 
-<file src="Net.Facebook.Graph\Models\Token.cs" target="content\Models\Token.cs" />
+<!-- <file src="Net.Facebook.Graph\Models\Token.cs" target="content\Models\Token.cs" /> -->
 <file src="Net.Facebook.Graph\bin\Release\netstandard1.6\Net.Facebook.Graph.dll" target="lib" />
 
 
 <!--NetStandard/PCL-->
-<file src="Net.Facebook.Graph\Models\Token.cs" target="content\Models\Token.cs" />
+<!-- <file src="Net.Facebook.Graph\Models\Token.cs" target="content\Models\Token.cs" /> -->
 <file src="Net.Facebook.Graph\bin\Release\netstandard1.6\Net.Facebook.Graph.dll" target="lib\netstandard1.6" />
 
  <!--UWP-->
-<file src="Net.Facebook.Graph\Models\Token.cs" target="content\Models\Token.cs" />
+<!-- <file src="Net.Facebook.Graph\Models\Token.cs" target="content\Models\Token.cs" /> -->
 <file src="Net.Facebook.Graph\bin\Release\netstandard1.6\Net.Facebook.Graph.dll" target="lib\UAP10" />
 
 <!--Net 45-->
-<file src="Net.Facebook.Graph\Models\Token.cs" target="content\Models\Token.cs" />
+<!-- <file src="Net.Facebook.Graph\Models\Token.cs" target="content\Models\Token.cs" /> -->
 <file src="Net.Facebook.Graph\bin\Release\netstandard1.6\Net.Facebook.Graph.dll" target="lib\net45" />
 
 
