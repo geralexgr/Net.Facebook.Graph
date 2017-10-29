@@ -34,6 +34,6 @@ Token token = await NetGraphRequest.GetToken("APPID", "APPSECRET");
 using Net.Facebook.Graph;
 using Net.Facebook.Graph.Models;
 
-var url = CreatePageRequestUrl("APPID", "APPSECRET","USERNAME");
+var url = await NetGraphRequest.CreatePageRequestUrl("APPID", "APPSECRET","USERNAME");
 Page page = await NetGraphRequest.GetPageInfo(url);
 ```
