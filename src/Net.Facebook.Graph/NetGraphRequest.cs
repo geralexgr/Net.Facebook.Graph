@@ -44,7 +44,7 @@ namespace Net.Facebook.Graph
                 return JsonConvert.DeserializeObject<Page>(result);
             }
 
-            catch (Exception) { return null; }
+            catch (Exception) { return new Page(); }
         }
 
     }
